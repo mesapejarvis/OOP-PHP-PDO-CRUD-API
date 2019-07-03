@@ -4,19 +4,33 @@
  ## Project Structure
  
 ├─ api/
+
 ├─── config/
+
 ├────── database.php - file used for connecting to the database.
+
 ├─── objects/
+
 ├────── product.php - contains properties and methods for "product" database queries.
+
 ├────── category.php - contains properties and methods for "category" database queries.
+
 ├─── product/
+
 ├────── create.php - file that will accept posted product data to be saved to database.
+
 ├────── delete.php - file that will accept a product ID to delete a database record.
+
 ├────── read.php - file that will output JSON data based from "products" database records.
+
 ├────── read_one.php - file that will accept product ID to read a record from the database.
+
 ├────── update.php - file that will accept a product ID to update a database record.
+
 ├────── search.php - file that will accept keywords parameter to search "products" database.
+
 ├─── category/
+
 ├────── read.php - file that will output JSON data based from "categories" database records.
 
 ## Set up the database
